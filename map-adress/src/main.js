@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 Vue.use(VueGeolocation)
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyARu8_g5NGyKApmZI5DtpUIaUec-kQW1fo',
+    key: '',
  
   }})
 new Vue({
