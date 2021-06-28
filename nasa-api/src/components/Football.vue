@@ -32,7 +32,7 @@ axios.request({
   url: 'https://api-football-beta.p.rapidapi.com/fixtures/lineups',
   params: {fixture: '37899'},
   headers: {
-    'x-rapidapi-key': '8699c6e8f1msh4d819cd28249129p11badajsn6aa3599447c3',
+    'x-rapidapi-key': '',
     'x-rapidapi-host': 'api-football-beta.p.rapidapi.com'
   }}).then( response => {
 	console.log(response.data.response[0]);
